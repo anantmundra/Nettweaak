@@ -90,7 +90,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="69dp"
             android:layout_marginBottom="373dp"
-            android:background="#594FAA"
+            android:background="#0175D1"
             android:onClick="sendMessage"
             android:text="@string/button_send"
             android:textColor="@android:color/background_light"

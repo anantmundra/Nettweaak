@@ -6,6 +6,8 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
@@ -39,6 +41,7 @@ public class first extends AppCompatActivity {
         }
         setContentView(R.layout.firstact);
         getSupportActionBar().setTitle("NeTTweaak");
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#0175D1")));
         System.out.println("Testinggggggggggggggggggggg");
         tabLayout=findViewById(R.id.tablayout);
         viewPager=findViewById(R.id.Viewpager);
